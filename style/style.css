@@ -1,0 +1,189 @@
+.columns {
+  padding: 0;
+  margin: 0; }
+
+.blue {
+  color: white;
+  background-color: #4E94EF; }
+
+.yellow {
+  color: white;
+  background-color: #FCE011; }
+
+.teal {
+  color: white;
+  background-color: #1abc9c; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Condensed', sans-serif; }
+
+h6 {
+  font-family: 'Arsenal', sans-serif; }
+
+* {
+  font-family: 'Arsenal', sans-serif; }
+
+body {
+  padding: 0;
+  background: linear-gradient(to bottom, #54c0ff, #342ed3);
+  background-attachment: fixed; }
+  body .large-11 {
+    background-color: white; }
+
+.side-nav {
+  padding: 25vh 0;
+  text-align: center; }
+  .side-nav li {
+    height: auto;
+    width: auto;
+    padding: 1rem;
+    list-style: none;
+    font-size: 2rem; }
+    .side-nav li a {
+      padding: 2rem 0;
+      color: white; }
+      .side-nav li a .tooltip {
+        position: relative; }
+      .side-nav li a ._badge {
+        position: relative; }
+      .side-nav li a ._badge[data-badge]:after {
+        content: attr(data-badge);
+        position: absolute;
+        top: -0.35rem;
+        right: 0.3rem;
+        width: 18px;
+        height: 18px;
+        padding-top: 0.25rem;
+        font-family: 'Roboto Condensed', sans-serif;
+        text-align: center;
+        font-size: 0.7rem;
+        color: white;
+        background: #F98248;
+        border-radius: 50%; }
+      .side-nav li a i {
+        width: 5rem;
+        height: 5rem;
+        margin: 1rem 0;
+        padding: 1rem 1rem;
+        transition: 0.3s ease; }
+      .side-nav li a i:hover {
+        border-radius: 50%;
+        background: #4E94EF;
+        box-shadow: 0.2rem 0.2rem 1rem black; }
+      .side-nav li a ._tooltiptext {
+        visibility: hidden;
+        position: absolute;
+        left: 6.5rem;
+        z-index: 1;
+        width: 5rem;
+        margin: 0 1rem 0 0;
+        padding: 0.6rem 0;
+        text-align: center;
+        font-size: 1rem;
+        border-radius: 0.6rem;
+        background-color: white;
+        color: #222; }
+      .side-nav li a ._tooltip:hover ._tooltiptext {
+        visibility: visible; }
+
+.nav-container {
+  box-shadow: 0 0 0.2rem #737171;
+  background-color: white; }
+
+nav {
+  display: inline;
+  font-size: 0.8rem; }
+  nav li {
+    background-color: white;
+    padding: 0.5rem;
+    padding-bottom: 0;
+    margin: 1rem; }
+    nav li a {
+      color: #737171;
+      border-bottom: 2px solid white;
+      transition-duration: 0.2s; }
+      nav li a .right {
+        float: right; }
+    nav li a:hover {
+      color: #222;
+      border-bottom: 2px solid #222; }
+  nav .right {
+    padding-left: 55vw; }
+
+.header {
+  height: 30rem;
+  padding: 2rem;
+  background-image: url("../res/header-bg.jpg");
+  background-position: -2rem;
+  background-repeat: no-repeat; }
+  .header h5 {
+    font-size: 1rem;
+    font-weight: bold; }
+  .header .large-9 {
+    padding-left: 20rem;
+    font-weight: bold;
+    text-align: center;
+    color: #222; }
+  .header .panel {
+    padding: 1rem;
+    float: right;
+    text-align: left;
+    border-radius: 0.2rem;
+    color: white;
+    background: linear-gradient(to right, rgba(255, 72, 0, 0.7), rgba(245, 225, 6, 0.7)), url("../res/panel-bg.png");
+    background-size: cover; }
+    .header .panel h4 {
+      font-size: 1.5rem; }
+    .header .panel ul {
+      margin-top: 1rem; }
+      .header .panel ul li {
+        padding: 0 0 0 2rem;
+        list-style: none;
+        margin: 0 0 3rem -0.5rem;
+        background: url("../res/bullet.png") no-repeat left top;
+        background-position-y: 0.3rem; }
+        .header .panel ul li a {
+          padding: 0.25rem 1rem;
+          color: white;
+          border: 1px solid white;
+          border-radius: 0.5rem;
+          transition: 0.3s ease; }
+        .header .panel ul li a:hover {
+          background-color: white;
+          color: orange; }
+
+.content {
+  height: 45vh;
+  padding: 1rem;
+  color: #222;
+  background-color: white; }
+  .content h2 {
+    font-family: 'Arsenal', sans-serif; }
+  .content .columns {
+    padding: 1rem;
+    background-color: white; }
+    .content .columns .card {
+      padding: 1rem;
+      height: 10rem;
+      border-radius: 0.2rem;
+      box-shadow: 0 0 8px #ccc; }
+      .content .columns .card h1 {
+        color: #1abc9c; }
+      .content .columns .card h5 {
+        font-weight: bold;
+        color: #222; }
+      .content .columns .card h6 {
+        padding-top: 1rem;
+        font-size: 0.9rem;
+        color: #737171; }
+      .content .columns .card small {
+        color: #1abc9c; }
+      .content .columns .card i {
+        width: 2.1rem;
+        height: 2.1rem;
+        padding: 0.3rem;
+        text-align: center;
+        float: right;
+        border-radius: 50%; }
+
+/*# sourceMappingURL=style.css.map */
