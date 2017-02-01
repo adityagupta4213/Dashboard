@@ -39,6 +39,7 @@ body {
 	.large-11 {
 		background-color: white;
 	}
+
 }
 .side-nav {
 	padding: 25vh 0;
@@ -295,6 +296,9 @@ nav {
 }
 
 @media screen and (max-width: 1023px){
+	body{
+		background-color: white;
+	}
 	.side-nav{
 		display: none;
 	}
